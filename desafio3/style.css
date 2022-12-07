@@ -1,0 +1,53 @@
+* {
+    font-family: 'Sono', sans-serif;
+}
+.galeria .container img {
+    width: 400px;
+    margin: 10px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    -webkit-box-shadow: 53px 3px 29px 12px rgba(0,0,0,0.29);
+    -moz-box-shadow: 53px 3px 29px 12px rgba(0,0,0,0.29);
+    box-shadow: 53px 3px 29px 12px rgba(0,0,0,0.29);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.mapa {
+    width: 500px;
+}
+img {
+    width: 400px;
+}
+.formulario {
+    margin: 0 100px;
+}
+
+@media only screen and (max-width: 800px) {
+
+    .container{
+        background-color: aquamarine;
+    }
+    .galeria .container img {
+        width: 300px;
+        
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .container{
+        background-color: cornflowerblue;
+    }
+
+    .galeria .container img {
+        width: 200px;
+    }
+}
